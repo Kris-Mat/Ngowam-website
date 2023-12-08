@@ -1,24 +1,16 @@
-@font-face {
-  font-family: myArchivoBlack;
-  src: url(fonts/ArchivoBlack-Regular.ttf);
-}
-
-@font-face {
-  font-family: myArchivoRegular;
-  src: url(fonts/Archivo-Regular.ttf);
-}
-
-@font-face {
-  font-family: myArchivoThin;
-  src: url(fonts/Archivo-Thin.ttf);
-}
-
 html, body {
-  font-family: 'myArchivoRegular';
+  font-family: 'Archivo', sans-serif;
 }
 
-h1,h2,h3 {
-  font-family: 'myArchivoBlack', 'Courier New', Courier, monospace;
+p{
+  font-size: larger;
+  font-weight:500;
+  word-spacing: 5px;
+  line-height: 26pt;
+}
+
+h1,h2,h3,h4, button {
+  font-family: 'Archivo Black', sans-serif;
 }
 
 div#root {

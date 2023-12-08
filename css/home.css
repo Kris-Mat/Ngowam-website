@@ -24,7 +24,7 @@ h1#home-intro-message{
     width:90%;
     font-size: 4.5em;
     margin-bottom:50px;
-    font-weight: bolder;
+    /* font-weight: bolder; */
     margin-top:80px;
 }
 
@@ -43,18 +43,22 @@ div#home-services{
 div#home-services-button-message{
     display:grid;
     /* align-content:center; */
-    justify-items: center;
-    background-color:red;
+    /* justify-items: center; */
+    /* background-color:red; */
     min-height:80vh;
 }
 
 h1#home-services-message{
-    text-align: center;
+    /* text-align: center; */
     font-size: 4.3em;
     /* margin-bottom:50px; */
-    font-weight: bolder;
+    /* font-weight: bolder; */
     height:100px;
     padding-top:150px;
+}
+
+div.home-services-name{
+    padding-bottom: 5px;
 }
 
 div#home-services-info-holder{
@@ -63,11 +67,13 @@ div#home-services-info-holder{
     display:flex;
     flex-direction: column;
     justify-content: center;
+    padding-right:150px;
 }
 
 div.home-services-info-container{
     border-top: 1px solid black;
-    
+    padding-top: 13px;
+    padding-bottom: 3px;  
 }
 
 div#home-services-tiktok{
@@ -78,19 +84,23 @@ div.home-services-name:hover{
     cursor:pointer;
 }
 
+div.home-services-info{
+    width:70%;
+}
+
 
 
 /*** community ***/
 
 div#home-community{
-    min-height:100vh;
+    min-height:80vh;
     min-width:100%;
     background-color: lightcoral;
     margin:0px;
 }
 
 div#home-connect{
-    min-height:100vh;
+    min-height:80vh;
     min-width:100%;
     background-color: lightgreen;
     margin:0px;
