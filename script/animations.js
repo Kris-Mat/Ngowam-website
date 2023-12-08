@@ -21,7 +21,17 @@ $(document).ready(function () {
 
     if ($(this).children(".home-services-info").is(":visible") === false && click === false) {
       click = true;
-      console.log("hide");
+      
+      // hide everything else first
+      $(".home-services-info").animate(
+        {
+          opacity: 0,
+        },
+        50
+      );
+      $(".home-services-info").hide(200);
+  
+      // now show what you want to see
       $(this).children(".home-services-info").show(200);
       $(this).children(".home-services-info").animate(
         {
