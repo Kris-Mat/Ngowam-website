@@ -1,0 +1,95 @@
+/*** intro ***/
+div#home-intro{
+    /* sizing */
+    max-width:100%;
+    height:100vh;
+    background-color: grey;
+    margin:0px;
+    padding:0px;
+}
+
+div#home-intro-button-message{
+    /* formatting */
+    display:grid;
+    align-content:center;
+    justify-items: center;
+}
+
+div.intro-cols{
+    height:100vh;
+}
+
+h1#home-intro-message{
+    text-align: center;
+    width:80%;
+    font-size: 4.5em;
+    margin-bottom:50px;
+    font-weight: bolder;
+}
+
+
+
+
+/*** services ***/
+
+div#home-services{
+    min-height:80vh;
+    min-width:100%;
+    background-color: lightblue;
+    margin:0px;
+}
+
+div#home-services-button-message{
+    display:grid;
+    /* align-content:center; */
+    justify-items: center;
+    background-color:red;
+    min-height:80vh;
+}
+
+h1#home-services-message{
+    text-align: center;
+    font-size: 4.3em;
+    /* margin-bottom:50px; */
+    font-weight: bolder;
+    height:100px;
+    padding-top:150px;
+}
+
+div#home-services-info-holder{
+    min-height: 80vh;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.home-services-info-container{
+    border-top: 1px solid black;
+    
+}
+
+div#home-services-last-service{
+    border-bottom: 1px solid black;
+}
+
+
+
+/*** community ***/
+
+div#home-community{
+    min-height:100vh;
+    min-width:100%;
+    background-color: lightcoral;
+    margin:0px;
+}
+
+div#home-connect{
+    min-height:100vh;
+    min-width:100%;
+    background-color: lightgreen;
+    margin:0px;
+}
+
+
+
