@@ -21,10 +21,11 @@ div.intro-cols{
 
 h1#home-intro-message{
     text-align: center;
-    width:80%;
+    width:90%;
     font-size: 4.5em;
     margin-bottom:50px;
     font-weight: bolder;
+    margin-top:80px;
 }
 
 
@@ -69,7 +70,7 @@ div.home-services-info-container{
     
 }
 
-div#home-services-last-service{
+div#home-services-tiktok{
     border-bottom: 1px solid black;
 }
 
