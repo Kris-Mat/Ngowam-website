@@ -1,25 +1,31 @@
 // animation to see more information about the services
 $(document).ready(function () {
 
+  // hide everything 
   $(".home-services-info").hide();
   $(".home-services-info").css("opacity", 0);
+
+  // only initially show the consulting information
+  $("#home-services-info-consulting").show();
+  $("#home-services-info-consulting").css("opacity", 1);
+
   
-  jQuery(".home-services-info-container").on("click", function () {
+  jQuery(".home-services-name").on("click", function () {
     var click = false;
 
-    if($(this).children(".home-services-info").is(":visible") === true && click === false) {
+    if($(this).siblings(".home-services-info").is(":visible") === true && click === false) {
       click = true;
       console.log("show");
-      $(this).children(".home-services-info").animate(
+      $(this).siblings(".home-services-info").animate(
         {
           opacity: 0,
         },
         50
       );
-      $(this).children(".home-services-info").hide(200);
+      $(this).siblings(".home-services-info").hide(200);
     }
 
-    if ($(this).children(".home-services-info").is(":visible") === false && click === false) {
+    if ($(this).siblings(".home-services-info").is(":visible") === false && click === false) {
       click = true;
       
       // hide everything else first
@@ -32,8 +38,8 @@ $(document).ready(function () {
       $(".home-services-info").hide(200);
   
       // now show what you want to see
-      $(this).children(".home-services-info").show(200);
-      $(this).children(".home-services-info").animate(
+      $(this).siblings(".home-services-info").show(200);
+      $(this).siblings(".home-services-info").animate(
         {
           opacity: 1,
         },

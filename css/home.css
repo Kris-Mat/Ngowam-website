@@ -74,6 +74,10 @@ div#home-services-tiktok{
     border-bottom: 1px solid black;
 }
 
+div.home-services-name:hover{
+    cursor:pointer;
+}
+
 
 
 /*** community ***/
