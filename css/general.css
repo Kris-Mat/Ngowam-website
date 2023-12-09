@@ -25,7 +25,7 @@ div#root {
   background-color: yellow;
 }
 
-/* nav */
+/*************************** nav ******************************/
 nav {
   background-color: black;
   width: 100%;
@@ -60,6 +60,8 @@ img#nav-logo {
   height: 6em;
 }
 
+/* ****************************************** */
+
 div.container {
   width: 100vw;
 }
@@ -84,6 +86,7 @@ button.main-button {
   align-items: center;
   justify-content: center;
   border: none;
+  transition: all 0.2s ease-in-out;
 }
 
 input.input-box {
@@ -92,6 +95,7 @@ input.input-box {
   font-size: 20px;
   font-family: "Archivo", sans-serif;
   padding: 20px;
+  margin:5px;
 }
 
 input.sign-up-button {
@@ -104,4 +108,46 @@ input.sign-up-button {
   padding: 5px;
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom:10px;
 }
+
+
+
+/************************* connect *************************/
+
+div#home-connect{
+  min-height:75vh;
+  min-width:100%;
+  padding:20px;
+  display:grid;
+  justify-items: center;
+  background-color: black;
+  margin:0px;
+}
+
+h1#home-connect-title{
+  margin-bottom:30px;
+}
+
+div#home-connect-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:white;
+}
+
+small#home-connect-small-text{
+  color:white;
+}
+
+form#home-connect-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.form-sections{
+  margin:10px;
+}
+
+/************************* ********* *************************/
