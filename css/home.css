@@ -36,7 +36,7 @@ h1#home-intro-message{
 div#home-services{
     min-height:80vh;
     min-width:100%;
-    background-color: lightblue;
+    background-color: lightgrey;
     margin:0px;
 }
 
@@ -55,6 +55,17 @@ h1#home-services-message{
     /* font-weight: bolder; */
     height:100px;
     padding-top:150px;
+}
+
+button#home-services-button{
+    background-color:black;
+    color:white;
+
+}
+
+button#home-services-button:hover{
+    background-color:rgb(33, 33, 33);
+    
 }
 
 div.home-services-name{
@@ -95,14 +106,81 @@ div.home-services-info{
 div#home-community{
     min-height:80vh;
     min-width:100%;
-    background-color: lightcoral;
+    background-color: grey;
     margin:0px;
 }
+
+div.home-community-cols{
+    padding-left: 15px;
+    padding-right:15px;
+    height:80vh;
+    display:flex;
+    align-items:center;
+}
+
+div#home-community-cols-join{
+    justify-content: flex-end;
+}
+
+div#home-community-cols-info{
+    padding-left:70px;
+}
+
+div#home-community-info{
+    width:65%;
+}
+
+div#home-community-info p{
+    font-size:22px;
+    line-height: 45px;
+    font-weight:bolder;
+    color:white;
+}
+
+
+
+div#home-community-join{
+    background-color: rgba(209, 209, 209, 0.5);
+    height:70%;
+    width:85%;
+    border-radius:40px;
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left:50px;
+    padding-right:50px;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div#home-community-form-container{
+  padding-bottom:30px;  
+}
+
+form#home-community-form{
+    padding-top:10px;
+}
+
+
+input#home-community-form-submit{
+    color:white;
+    background-color:black;
+
+}
+
+input#home-community-form-submit:hover{
+    background-color:rgb(33, 33, 33);
+}
+
+
+/*** connect ***/
 
 div#home-connect{
     min-height:80vh;
     min-width:100%;
-    background-color: lightgreen;
+    background-color: black;
     margin:0px;
 }
 

@@ -1,16 +1,22 @@
-html, body {
-  font-family: 'Archivo', sans-serif;
+html,
+body {
+  font-family: "Archivo", sans-serif;
 }
 
-p{
+p {
   font-size: larger;
-  font-weight:500;
+  font-weight: 500;
   word-spacing: 5px;
   line-height: 26pt;
 }
 
-h1,h2,h3,h4, button {
-  font-family: 'Archivo Black', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+button {
+  font-family: "Archivo Black", sans-serif;
 }
 
 div#root {
@@ -20,63 +26,82 @@ div#root {
 }
 
 /* nav */
-nav{
-    background-color:black;
-    width:100%;
-    height:18vh;
-    position:fixed;
-    z-index:10; 
-    color:white;
+nav {
+  background-color: black;
+  width: 100%;
+  height: 18vh;
+  position: fixed;
+  z-index: 10;
+  color: white;
 
-    display:flex; 
-    justify-content: space-between;
-    align-items: center;
-    padding:20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
-a.nav-links{
-    color:white;
+a.nav-links {
+  color: white;
 }
 
-a.nav-links:hover{
-    color:grey;
-    text-decoration:none;
-    cursor:pointer;
+a.nav-links:hover {
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-div#nav-heading-links{
-    width:500px;
-    display:flex;
-    justify-content: space-between;
+div#nav-heading-links {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
 }
 
-img#nav-logo{
+img#nav-logo {
   height: 6em;
 }
-
-
 
 div.container {
   width: 100vw;
 }
 
-div.row{
-    width: 100%;
-    height:100%;
-    margin:0px;
+div.row {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
 }
 
 button.main-button {
-  width: 400px;
-  height: 80px;
+  width: fit-content;
+  height: fit-content;
   margin: 10px;
   border-radius: 50px;
-  font-size: 2.5em;
+  font-size: 2.2em;
   /* font-weight: bolder; */
-  padding: 0px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
 }
 
+input.input-box {
+  height: fit-content;
+  width: fit-content;
+  font-size: 20px;
+  font-family: "Archivo", sans-serif;
+  padding: 20px;
+}
 
+input.sign-up-button {
+  height: fit-content;
+  width: fit-content;
+  border-radius: 50px;
+  border: none;
+  font-size: 35px;
+  font-family: "Archivo Black", sans-serif;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
