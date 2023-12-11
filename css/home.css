@@ -115,8 +115,19 @@ div.home-services-info{
 div#home-community{
     min-height:80vh;
     min-width:100%;
-    background-color: grey;
+
+    padding:0px;
+    /* background-color: grey; */
     margin:0px;
+    background-image: url("../assets/community-background-image.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+div#home-community-row{
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 div.home-community-cols{
@@ -149,7 +160,7 @@ div#home-community-info p{
 
 
 div#home-community-join{
-    background-color: rgba(209, 209, 209, 0.5);
+    background-color: rgba(209, 209, 209, 0.7);
     height:70%;
     width:85%;
     border-radius:40px;
