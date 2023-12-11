@@ -1,0 +1,32 @@
+div#about-rebec{
+    /* sizing */
+    max-width:100%;
+    height:fit-content;
+    background-color: white;
+    color:black;
+    padding:50px;
+    padding-top:23vh;
+}
+
+div#about-rebec-info{
+    height:fit-content;
+    padding-top:120px;
+    padding-bottom:120px;
+}
+
+
+div#about-rebec-img img{
+    width:100%;
+    margin:20px;
+}
+
+div#about-rebec-img{
+    padding-top:50px;
+    padding-left:20px;
+}
+
+h1#about-rebec-info-title{
+    margin-bottom:70px;
+}
+
+

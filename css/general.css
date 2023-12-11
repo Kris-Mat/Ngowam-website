@@ -3,7 +3,7 @@ body {
   font-family: "Archivo", sans-serif;
 }
 
-p {
+p, li {
   font-size: larger;
   font-weight: 500;
   word-spacing: 5px;
